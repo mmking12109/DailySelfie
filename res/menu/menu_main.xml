@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Camera, should appear as action button -->
+    <item android:id="@+id/action_camera"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="@string/action_camera"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete_all"
+        android:title="@string/delete_all"
+        android:showAsAction="never"/>
+
+</menu>
